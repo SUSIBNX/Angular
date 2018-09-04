@@ -23,9 +23,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              //  "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "D:/Capsule/task/node_modules/bootstrap/dist/css/bootstrap.min.css",
+                "D:/Capsule/task/src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              //  "../src/jquery.min.js",
+             //  "../src/bootstrap.min.js",
+                //"../src/Bootstrapdemo.js"
+            ]
           },
           "configurations": {
             "production": {

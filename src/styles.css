@@ -1,1 +1,125 @@
 /* You can add global styles to this file, and also import other style files */
+.innerDivTask {
+	padding-left: 15px;
+	width: 40%;
+	margin: 0 auto;
+}
+.outerDiv {
+	width: 40%;
+	margin: 0 auto;
+}
+input[type="text"]{
+  background-color : #d1d1d1;
+  width: 30%;
+  border: none;
+  outline: none;
+}
+.widthClass > input[type="text"] {
+  background-color : #d1d1d1;
+  width: 11.18%;
+  border: none;
+  outline: none;
+}
+
+input[type=range] {
+	/*width: 30% !important;*/
+	display: inline-block;
+	background-color: #202020;
+}
+label {
+	display: inline-block;
+	/*width: 85px;*/
+}
+.viewInnerDiv label {
+	width: 95px;
+}
+.display-inline {
+	display: inline;;
+}
+button{
+	border: 1px solid #383838;
+	padding: 5px 15px;
+	background-color: #d1d1d1;
+}
+.resetTask{
+	margin-left: 15px;
+}
+.navTask{
+	margin: 15px 0px;
+}
+.viewTask {
+	margin-left: 15px;
+}
+.addInnerDiv > div,.viewInnerDiv > div{
+	margin-top: 15px;
+}
+a,a:visited,a:hover {
+	text-decoration: none;
+}
+.activeTask{
+	color: #3d0099 !important;
+	text-decoration: none;
+}
+.viewInnerDiv {
+	/*display: none;*/
+	margin-left: 30%;
+}
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+}
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;   
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; 
+    background: #383838;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #383838;
+    cursor: pointer;
+}
+.buttonDiv {
+	margin-left: 27%;
+}
+
+html { font-size: 16px }
+label{
+/*width: 15%;*/
+
+}
+
+.width100{
+  width:100% !important;
+}
+
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}
+
+.nav-link.active{
+font-weight: bold;
+
+}
